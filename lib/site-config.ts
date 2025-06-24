@@ -17,6 +17,7 @@ export interface SiteConfig {
   youtube?: string
   zhihu?: string
   mastodon?: string
+  twitch?: string  // 👈 ADD THIS LINE
 
   defaultPageIcon?: string | null
   defaultPageCover?: string | null
@@ -34,6 +35,7 @@ export interface SiteConfig {
   navigationStyle?: types.NavigationStyle
   navigationLinks?: Array<NavigationLink>
 }
+
 
 export interface NavigationLink {
   title: string
