@@ -18,7 +18,7 @@ export default siteConfig({
 
   // social usernames (optional)
   twitter: 'thejreamverse',
-  twitch?: 'thejreamverse',
+  twitch: 'thejreamverse',
   youtube: 'thejreamverse',
   instagram: 'thejreamverse',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
