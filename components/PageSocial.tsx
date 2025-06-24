@@ -47,6 +47,11 @@ const socialLinks: SocialLink[] = [
   }
 ].filter(Boolean)
 
+console.log('twitter', config.twitter)
+console.log('youtube', config.youtube)
+console.log('twitch', config.twitch)
+
+
 export function PageSocial() {
   return (
     <div className={styles.pageSocial}>
